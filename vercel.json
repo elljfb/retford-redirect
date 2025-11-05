@@ -1,9 +1,6 @@
 {
   "redirects": [
-    {
-      "source": "/:path*",
-      "destination": "https://animalage.info/:path*",
-      "permanent": true
-    }
+    { "source": "/", "destination": "https://animalage.info", "permanent": true },
+    { "source": "/(.*)", "destination": "https://animalage.info/$1", "permanent": true }
   ]
 }
